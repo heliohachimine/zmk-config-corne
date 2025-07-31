@@ -1,0 +1,23 @@
+
+/ {
+    key-matrix {
+        compatible = "zmk,matrix-transform";
+        row-count = <4>;
+        col-count = <6>;
+        col-split = <3>;
+    };
+
+    &matrix {
+        row-gpios = <&gpio0 7 GPIO_ACTIVE_HIGH>,
+                    <&gpio0 8 GPIO_ACTIVE_HIGH>,
+                    <&gpio0 6 GPIO_ACTIVE_HIGH>,
+                    <&gpio0 26 GPIO_ACTIVE_HIGH>;
+
+        col-gpios = <&gpio0 11 GPIO_ACTIVE_HIGH>,
+                    <&gpio0 31 GPIO_ACTIVE_HIGH>,
+                    <&gpio0 5 GPIO_ACTIVE_HIGH>,
+                    <&gpio0 10 GPIO_ACTIVE_HIGH>,
+                    <&gpio1 2 GPIO_ACTIVE_HIGH>,
+                    <&gpio1 11 GPIO_ACTIVE_HIGH>;
+    };
+};
