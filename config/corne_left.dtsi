@@ -10,13 +10,13 @@
         row-gpios = <&gpio0 24 GPIO_ACTIVE_HIGH>,  // D3
                     <&gpio0 22 GPIO_ACTIVE_HIGH>,  // D2
                     <&gpio0 20 GPIO_ACTIVE_HIGH>,  // D1
-                    <&gpio0 18 GPIO_ACTIVE_HIGH>;  // D0
+                    <&gpio0 17 GPIO_ACTIVE_HIGH>;  // D0
 
         col-gpios = <&gpio0 9  GPIO_ACTIVE_HIGH>,  // D4
                     <&gpio0 10 GPIO_ACTIVE_HIGH>,  // C6
                     <&gpio0 8  GPIO_ACTIVE_HIGH>,  // D7
-                    <&gpio0 7  GPIO_ACTIVE_HIGH>,  // E6
+                    <&gpio0 6  GPIO_ACTIVE_HIGH>,  // E6
                     <&gpio1 11 GPIO_ACTIVE_HIGH>,  // B4
-                    <&gpio1 12 GPIO_ACTIVE_HIGH>;  // B5
+                    <&gpio1 13 GPIO_ACTIVE_HIGH>;  // B5
     };
 };
