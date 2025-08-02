@@ -16,13 +16,5 @@
             >;
         };
 
-        layer_1 {
-            bindings = <
-                &kp KC_N1   &kp KC_N2   &kp KC_N3   &kp KC_N4   &kp KC_N5
-                &kp KC_N6   &kp KC_N7   &kp KC_N8   &kp KC_N9   &kp KC_N0
-                &trans      &trans      &trans      &trans      &trans
-            >;
-        };
-
     };
 };
