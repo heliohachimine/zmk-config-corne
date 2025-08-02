@@ -7,15 +7,22 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+       default_layer {
             bindings = <
-                &kp TAB    &kp Q     &kp W     &kp E     &kp R     &kp T
-                &kp CAPS   &kp A     &kp S     &kp D     &kp F     &kp G
-                &kp LSFT   &kp Z     &kp X     &kp C     &kp V     &kp B
-                &kp LCTRL  &kp LGUI  &none     &none     &kp SPACE &kp SPACE
+                &kp T       &kp R       &kp E       &kp W       &kp Q       &kp TAB
+                &kp G       &kp F       &kp D       &kp S       &kp A       &kp CAPS
+                &kp B       &kp V       &kp C       &kp X       &kp Z       &kp LSHT
+                &kp ALT     &kp SPACE   &mo 1       &kp LGUI    &kp LCTRL
             >;
         };
 
+        layer_1 {
+            bindings = <
+                &kp KC_N1   &kp KC_N2   &kp KC_N3   &kp KC_N4   &kp KC_N5
+                &kp KC_N6   &kp KC_N7   &kp KC_N8   &kp KC_N9   &kp KC_N0
+                &trans      &trans      &trans      &trans      &trans
+            >;
+        };
 
     };
 };
