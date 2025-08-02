@@ -11,7 +11,7 @@
             bindings = <
                 &kp T       &kp R       &kp E       &kp W       &kp Q       &kp TAB
                 &kp G       &kp F       &kp D       &kp S       &kp A       &kp CAPS
-                &kp B       &kp V       &kp C       &kp X       &kp Z       &kp LSHT
+                &kp B       &kp V       &kp C       &kp X       &kp Z       &kp LSHFT
                 &kp ALT     &kp SPACE   &kp SPACE   &kp LGUI    &kp LCTRL
             >;
         };
